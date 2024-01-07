@@ -28,3 +28,9 @@ while True:
         print('the #2 Fibonacci number is 1')
         continue
     
+    if nth == 10000:
+        print('WARNING this will take awhile')
+        print(' you may want to quit, press Ctrl-C')
+        input ('press enter to begin')
+    
+    
