@@ -32,5 +32,11 @@ while True:
         print('WARNING this will take awhile')
         print(' you may want to quit, press Ctrl-C')
         input ('press enter to begin')
-    
+
+    secondToLastNumber = 0 
+    lastNUmber = 1 
+    fibNumbersCalculated = 2
+    print('0, 1, ', end='')
+
+        
     
