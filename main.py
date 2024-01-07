@@ -22,4 +22,9 @@ while True:
         print()
         print('the #1 Fibonacci number is 0')
         continue
+    elif nth ==2:
+        print('0,1')
+        print ()
+        print('the #2 Fibonacci number is 1')
+        continue
     
