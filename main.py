@@ -11,7 +11,7 @@ while True:
         if response == 'QUIT':
             print('Thanks for playing')
             sys.exit()
-        if response.isdecimal() and int(respopnse) != 0:
+        if response.isdecimal() and int(response) != 0:
             nth = int(response)
             break
         print('please enter a number bigger than 0 or QUIT')
