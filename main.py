@@ -43,7 +43,7 @@ while True:
         fibNumbersCalculated += 1
         print(nextNumber, end='')
 
-        if fibNumbersCaculated == nth:
+        if fibNumbersCalculated == nth:
             print()
             print()
             print(' the #', fibNumbersCaculated, ' Fibinacci', 'number is', nextNumber, sep='')
