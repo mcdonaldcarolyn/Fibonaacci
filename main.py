@@ -39,7 +39,7 @@ while True:
     print('0, 1, ', end='')
 
     while True:
-        nextNumber = secondToLastNumber + lastNUmber
+        nextNumber = secondToLastNumber + lastNumber
         fibNumbersCalculated += 1
         print(nextNumber, end='')
 
