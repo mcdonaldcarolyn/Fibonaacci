@@ -38,5 +38,10 @@ while True:
     fibNumbersCalculated = 2
     print('0, 1, ', end='')
 
+    while True:
+        nextNumber = secondToLastNumber + lastNUmber
+        fibNumbersCalculated += 1
+        print(nextNumber, end='')
         
+            
     
