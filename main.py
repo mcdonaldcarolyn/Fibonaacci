@@ -34,7 +34,7 @@ while True:
         input ('press enter to begin')
 
     secondToLastNumber = 0 
-    lastNUmber = 1 
+    lastNumber = 1 
     fibNumbersCalculated = 2
     print('0, 1, ', end='')
 
