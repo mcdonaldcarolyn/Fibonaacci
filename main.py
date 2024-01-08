@@ -46,7 +46,7 @@ while True:
         if fibNumbersCalculated == nth:
             print()
             print()
-            print(' the #', fibNumbersCaculated, ' Fibinacci', 'number is', nextNumber, sep='')
+            print(' the #', fibNumbersCalculated, ' Fibinacci', 'number is ', nextNumber, sep='')
             break
 
         print(', ', end='')
