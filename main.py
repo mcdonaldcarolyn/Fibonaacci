@@ -42,6 +42,17 @@ while True:
         nextNumber = secondToLastNumber + lastNUmber
         fibNumbersCalculated += 1
         print(nextNumber, end='')
-        
-            
+
+        if fibNumbersCaculated == nth:
+            print()
+            print()
+            print(' the #', fibNumbersCaculated, ' Fibinacci', 'number is', nextNumber, sep='')
+            break
+
+        print(', ', end='')
+
+        secondToLastNumber = lastNumber
+        lastNumber = nextNumber 
+
+
     
